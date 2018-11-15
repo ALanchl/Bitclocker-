@@ -1,0 +1,7 @@
+管理员身份运行CMD
+ //调出帮助信息
+manage-bde -?
+ //锁定磁盘，如f盘
+manage-bde -lock f:
+ //解锁磁盘，如f盘
+manage-bde -unlock f: -Passward     //注意格式，":"后有一个空格，输入此行代码后会提示用户输入密码
